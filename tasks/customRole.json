@@ -1,0 +1,18 @@
+{
+    "Name": "Custom Role",
+    "id": null,
+    "isCustom": true,
+    "Description": "Allows read access to  azure storage, network and compute resources",
+    "Actions": [
+        "Microsoft.Compute/*/read",
+        "Microsoft.Storage/*/read",
+        "Microsoft.Network/*/read",
+        "Microsoft.Resources/Subscriptions/resourceGroups/read",
+        "Microsoft.Support/*"
+    ],
+    "NotActions": [],
+    "AssignableScopes": [
+        "/subscriptions/18e0446d-4bb1-4f97-8835-737a2516df41"
+    ]
+        
+}

@@ -7,6 +7,12 @@
         },
         "adminPassword": {
             "value": "Pa55w.rd1234"
+        },
+        "vmNamePrefix":{
+            "value": "lab02vm"
+        },
+        "nicNamePrefix":{
+            "value": "az1000302-nic"
         }
     }
 }
